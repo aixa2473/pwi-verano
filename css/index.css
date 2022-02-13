@@ -1,0 +1,121 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+body{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+
+/* #name{
+    background-color: rgb(52, 212, 52);
+}
+
+header{
+    background-color: rgb(199, 62, 126);
+}  */
+
+.header{
+    background-color: rgb(110, 110, 236);
+    color: white;
+    height: 80px;
+    width: 85vw;
+    margin-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.logo{
+    text-transform: uppercase;
+}
+
+.logo a{
+    color: white;
+    text-decoration: none;
+}
+
+.navbar{
+    background: rgb(177, 186, 224);
+    color: white;
+    width: 85vw;
+    height: 70px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.navbar ul{
+    text-align: right;
+}
+
+.navbar ul li{
+    display: inline-block;
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    display: block;
+    padding: 25px;
+    color: white;    
+}
+
+.navbar ul li a:hover{
+    color: blue;
+}
+
+#mainContent{
+    width: 85vw;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#portada{
+    width: 78%;
+    background: rgb(121, 118, 118);
+    padding: 1.6em; 
+    box-sizing: border-box;
+}
+
+.destacado, .default{
+    background: white;
+    padding: 0.7em;
+}
+
+.destacado{
+    margin-bottom: 0.6em;
+}
+
+.default{
+    box-sizing: border-box; 
+    width: 50%;
+    float: left;
+    height: 500px
+}
+
+.imgNota img{
+    width: 100%;
+}
+
+footer{
+    clear: both;
+    background-color: rgb(145, 145, 245);
+    color: white;
+    text-align: center;
+    padding: 15px;
+    font-size: 14px;
+    width: 85vw;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+
+
+
+
+
+
+
